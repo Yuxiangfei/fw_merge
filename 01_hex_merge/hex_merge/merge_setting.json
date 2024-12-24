@@ -1,0 +1,32 @@
+{
+    "name": "merge_setting",
+    "version": "1.0.0",
+
+    "_comment_header": "image header config  is as follow",
+
+    "fw_upgrade": "1",
+    "Hw_Rev_Min": "0",
+    "vendor_name": "ACE",
+    "model_name": "AB-U2A-A007B-A",
+
+    
+    "_comment_pri": "FW config is as follow",
+
+    "boot_file_path": "/../test_folder/D2D_STM32G474RC_BOOT.hex",
+    "app_file_path": "/../test_folder/D2D_STM32G474RC_APP.hex",
+
+    "boot_start_address": "0x08000000",
+    "boot_size": "0xC000",
+    "app_start_address": "0x08040000",
+    "app_size": "0x20000",
+
+    "app_version_address": "0x08040008",
+    "app_version_size": "0x08",
+    "app_version_prefix": "CHARGER_D2D_",
+
+    "app_crc_start_address": "0x08040004",
+    "app_crc_size": "0x1FFFC",
+    "app_crc_save_address": "0x08040000",
+
+    "number_in_record": "0x10"
+}
